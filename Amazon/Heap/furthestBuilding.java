@@ -1,3 +1,6 @@
+import java.util.Collections;
+import java.util.PriorityQueue;
+
 class Solution {
     public int furthestBuilding(int[] heights, int bricks, int ladders) {
         PriorityQueue<Integer> bricksUsed = new PriorityQueue<>(Collections.reverseOrder());
